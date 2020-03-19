@@ -9,7 +9,10 @@ public class TitleVerification3 {
     public static void main(String[] args) {
 
         List<String> urls = Arrays.asList("https://luluandgeorgia.com",
-                "https://wayfair.com/", "https://walmart.com", "https://westelm.com/");
+                                          "https://wayfair.com/",
+                                          "https://walmart.com",
+                                          "https://westelm.com/");
+
 
         for (int i = 0; i <urls.size() ; i++) {
             WebDriver driver = BrowserFactory.getDriver("chrome");
